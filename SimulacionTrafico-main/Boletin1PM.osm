@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.3' generator='SimTrafficTM'>
+<node id='2' lat='0.0010877606549001603' lon='2.2339810133603923E-4' >
+<tag k='entradasalida' v='30,0,30,,30,30,30' />
+</node>
+<node id='3' lat='-2.8041848640366972E-5' lon='2.1891092403605297E-4' >
+<tag k='nombre' v='' />
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='4' lat='-0.0010399437141993873' lon='2.1442374673606672E-4' >
+<tag k='entradasalida' v='30,30,30,,30,30,30' />
+</node>
+<node id='5' lat='-1.4489591512344378E-5' lon='-0.0011317294432598105' >
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='6' lat='-1.9007010555018573E-5' lon='0.0015740384686319026' >
+<tag k='entradasalida' v='20,20,0,,20,20,0' />
+</node>
+<node id='7' lat='8.941104646916219E-5' lon='2.1442374673606672E-4' >
+<tag k='nombre' v='' />
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='8' lat='3.5202017957071817E-5' lon='-0.0020426264351570207' >
+<tag k='entradasalida' v='20,20,20,,20,20,20' />
+</node>
+<node id='9' lat='-0.001003804361857994' lon='-6.471142948612946E-4' >
+<tag k='entradasalida' v='20,20,20,,20,20,20' />
+</node>
+<segment id='2' from='5' to='3'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='60.0' />
+</segment>
+<segment id='3' from='3' to='6'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='60.0' />
+</segment>
+<segment id='4' from='2' to='7'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='60.0' />
+</segment>
+<segment id='5' from='7' to='3'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='60.0' />
+</segment>
+<segment id='6' from='3' to='4'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='60.0' />
+</segment>
+<segment id='7' from='8' to='5'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='60.0' />
+</segment>
+<segment id='8' from='5' to='9'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='60.0' />
+</segment>
+</osm>
